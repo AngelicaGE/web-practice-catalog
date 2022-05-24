@@ -3,7 +3,7 @@ body{
 }
 
 
-.parallax-container{
+#ParallaxAlice .parallax-container{
     width: 100%;
     height: 100vh;
     perspective: 8px;
@@ -12,11 +12,11 @@ body{
     overflow-y: scroll;
     position: relative; /*to have overlayed elements with absolute pos on those*/
 }
-.container{
+#ParallaxAlice .container{
     position: absolute;
     transform: 0 50%; /*the origin of the element will be in its center*/
 }
-.image_background{
+#ParallaxAlice .image_background{
     height: auto;
     width: 100%;
     transform: translateZ(0px) scale(1);
@@ -24,7 +24,7 @@ body{
         I.e. (8-0)/8 = 1
     */
 }
-.image_middleground{
+#ParallaxAlice .image_middleground{
     height: 100%;
     width: 100%;
     transform: translateZ(5px) scale(0.375);
@@ -33,36 +33,36 @@ body{
     */
     transform-origin: 50%;
 }
-.image_foreground{
+#ParallaxAlice .image_foreground{
     transform: translateZ(2px) scale(0.75);
     transform-origin: top;
 }
 
-.card{
+#ParallaxAlice .card{
     background-color: white;
     width: 80px;
     height: 100px;
     position: absolute;
     border-radius: 10%;
-    transform: rotate(-20px) ;
+    transform: rotate(-20deg) ;
 }
-.one{
+#ParallaxAlice .one{
 left: 30%;
 top: 50%;
 }
-.two{
+#ParallaxAlice .two{
     right: 20%;
     top: 200px;
 }
-.three{
+#ParallaxAlice .three{
     right: 20%;
     bottom: -1000px;
 }
-.four{
+#ParallaxAlice .four{
     left: 20%;
     bottom: -700px;
 }
-.five{
+#ParallaxAlice .five{
     left: 35%;
     bottom: -1230px;
 }

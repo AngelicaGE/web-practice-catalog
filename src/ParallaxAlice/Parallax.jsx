@@ -1,9 +1,9 @@
 import React from "react";
 import './Parallax.css';
 
-const Parallax = () => {
+const ParallaxAlice = () => {
   return (
-    <div className="Parallax">
+    <div id="ParallaxAlice" className="Parallax">
       <div className="parallax-container">
 
         <div className="container image_background">
@@ -27,4 +27,4 @@ const Parallax = () => {
   );
 };
 
-export default Parallax;
+export default ParallaxAlice;

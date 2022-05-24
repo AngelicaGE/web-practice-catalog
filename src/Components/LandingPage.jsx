@@ -5,7 +5,8 @@ const LandingPage = () => {
   return (
     <div className='LandingPage'>
         <ul>
-            <li><Link to="/Parallax">Parallax Effect</Link></li>
+            <li><Link to="/Parallax-Alice">Parallax Effect (Alice in Wonderland)</Link></li>
+            <li><Link to="/Parallax-Rocket">Parallax Effect (Rocket)</Link></li>
         </ul>
     </div>
   )
